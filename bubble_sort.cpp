@@ -26,6 +26,9 @@ int main(int argc, char *argv[]) {
 		cout << num[i] << endl;
 	}
 	
+	for(i = n-1; i > 0; i--) {
+		cout << num[i] << endl;
+	}
 	return 0;
 }
 
